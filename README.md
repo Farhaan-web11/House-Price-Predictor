@@ -81,3 +81,23 @@ House-Price-Predictor/
 # Author
 
 Farhaan Shareef
+## Features Completed
+
+- Dataset exploration
+- Data cleaning
+- Feature engineering
+- Train/Test split
+- Linear Regression model
+- Model evaluation
+- House price prediction
+- Error handling
+- Testing
+- GitHub version control
+
+## Current Project Status
+
+✅ Week 1 Completed
+
+✅ Week 2 (Days 8–13) Completed
+
+The project can train a machine learning model, evaluate its performance, and predict house prices using processed data.

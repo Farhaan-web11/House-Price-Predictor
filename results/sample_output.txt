@@ -1,0 +1,10 @@
+House Price Prediction
+
+Predicted House Price:
+₹182,450.75
+
+Model:
+Linear Regression
+
+Status:
+Prediction completed successfully.

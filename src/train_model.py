@@ -12,6 +12,14 @@ import os
 import pandas as pd
 import joblib
 
+if not os.path.exists("../data/processed/X_train.csv"):
+    print("Error: Training dataset not found.")
+    exit()
+
+if not os.path.exists("../data/processed/y_train.csv"):
+    print("Error: Training labels not found.")
+    exit()
+
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_absolute_error, r2_score
 

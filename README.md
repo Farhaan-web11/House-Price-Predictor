@@ -106,3 +106,10 @@ The project can train a machine learning model, evaluate its performance, and pr
 - Compared multiple Machine Learning algorithms
 - Evaluated each model using R² Score
 - Selected the best-performing model automatically
+## Performance Improvements
+
+- Saved trained model using Joblib for faster predictions.
+- Reused processed datasets instead of repeating preprocessing.
+- Optimized Random Forest parameters during development.
+- Reduced unnecessary file loading.
+- Added caching for the Streamlit app (if applicable).

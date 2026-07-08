@@ -142,3 +142,64 @@ python src/train_model.py
 python src/evaluate_model.py
 python src/predict_house.py
 ```
+# House Price Predictor
+
+## Features
+
+- Data exploration
+- Data cleaning
+- Feature engineering
+- Train/Test split
+- Linear Regression model
+- Model evaluation
+- Multiple model comparison
+- House price prediction
+- Input validation
+- Error handling
+- Testing
+- Performance optimization
+- Git version control
+
+## Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib
+- Joblib
+- Streamlit (if implemented)
+- Git & GitHub
+
+## Project Structure
+
+data/
+docs/
+models/
+results/
+src/
+tests/
+README.md
+
+## Screenshots
+
+## Screenshots
+
+### Prediction Output
+
+![Prediction](images/prediction.png)
+
+### Model Evaluation
+
+![Evaluation](images/evaluation_graph.png)
+
+### GitHub Repository
+
+![GitHub](images/github_repo.png)
+
+## Future Improvements
+
+- Improve prediction accuracy
+- Try additional ML algorithms
+- Deploy the project online
+- Add more visualizations

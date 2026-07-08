@@ -27,3 +27,10 @@ Observations:
 Suggested Improvements:
 - Add tooltips for inputs.
 - Display the model name.
+## Fixes Applied
+
+- Added Quick Start instructions.
+- Improved error messages.
+- Added clearer labels for user inputs.
+- Improved project documentation.
+- Simplified prediction workflow.

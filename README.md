@@ -113,3 +113,32 @@ The project can train a machine learning model, evaluate its performance, and pr
 - Optimized Random Forest parameters during development.
 - Reduced unnecessary file loading.
 - Added caching for the Streamlit app (if applicable).
+## 🚀 Quick Start
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Farhaan-web11/House-Price-Predictor.git
+```
+
+### 2. Install dependencies
+
+```bash
+pip install pandas numpy matplotlib scikit-learn joblib streamlit
+```
+
+### 3. Run the application
+
+If using Streamlit:
+
+```bash
+streamlit run app.py
+```
+
+Or run the Python scripts:
+
+```bash
+python src/train_model.py
+python src/evaluate_model.py
+python src/predict_house.py
+```

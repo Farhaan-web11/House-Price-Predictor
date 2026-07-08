@@ -1,0 +1,8 @@
+Model Comparison
+------------------------------
+Linear Regression    0.6555
+Decision Tree        0.7341
+Random Forest        0.8833
+
+Best Model: Random Forest
+Best R² Score: 0.8833355569329234

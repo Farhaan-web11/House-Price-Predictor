@@ -101,3 +101,8 @@ Farhaan Shareef
 ✅ Week 2 (Days 8–13) Completed
 
 The project can train a machine learning model, evaluate its performance, and predict house prices using processed data.
+## Advanced Features
+
+- Compared multiple Machine Learning algorithms
+- Evaluated each model using R² Score
+- Selected the best-performing model automatically

@@ -203,3 +203,6 @@ README.md
 - Try additional ML algorithms
 - Deploy the project online
 - Add more visualizations
+## Live Demo
+
+https://house-price-predictor-qdcutwz5ashcd2qgsu2dxi.streamlit.app/

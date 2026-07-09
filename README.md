@@ -1,133 +1,159 @@
-# House Price Predictor
+# 🏠 House Price Predictor
 
-## Student Information
+## 📌 Project Description
 
-- **Name:** Farhaan Shareef
-- **Student ID:** CZ-2026-0189
-- **Batch:** July 2026
+The **House Price Predictor** is a machine learning project developed as part of the **CodeZoner AI & Machine Learning Internship**. It analyzes housing data, trains machine learning models, evaluates their performance, and predicts house prices based on selected house features. The project demonstrates the complete machine learning workflow, from data preprocessing and feature engineering to model training, evaluation, prediction, and deployment using Streamlit.
 
 ---
 
-# Problem Statement
+## 🌐 Live Demo
 
-The objective of this project is to build a Machine Learning model that predicts house prices based on various features such as house size, number of bedrooms, bathrooms, overall quality, and location.
+**Live Application**
 
----
-
-# Dataset Source
-
-- Kaggle - House Prices: Advanced Regression Techniques
-
-Files used:
-- train.csv
-- test.csv
-- data_description.txt
+https://house-price-predictor-qdcutwz5ashcd2qgsu2dxi.streamlit.app
 
 ---
 
-# Project Approach
+## 📸 Screenshots
 
-1. Download the dataset
-2. Explore the dataset
-3. Clean missing values
-4. Create new features
-5. Encode categorical variables
-6. Scale numerical features
-7. Split data into training and testing sets
-8. Train Machine Learning models
-9. Evaluate model performance
-10. Predict house prices
+The following screenshots demonstrate different stages of the project.
 
----
+### 📁 GitHub Repository
 
-# Technologies Used
+Complete source code, documentation, datasets, and project files.
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Scikit-learn
-- Git
-- GitHub
-- Visual Studio Code
+**View Image:**
+https://github.com/Farhaan-web11/House-Price-Predictor/blob/main/images/github_repo.png
+
+![GitHub Repository](images/github_repo.png)
 
 ---
 
-# Project Structure
+### 📊 Data Exploration
 
-```
-House-Price-Predictor/
-│
-├── data/
-├── docs/
-├── src/
-└── README.md
-```
+Exploratory Data Analysis (EDA) performed on the housing dataset.
 
----
-
-# Screenshots
-
-## Data Exploration
+**View Image:**
+https://github.com/Farhaan-web11/House-Price-Predictor/blob/main/docs/exploration.png
 
 ![Data Exploration](docs/exploration.png)
 
-## Feature Engineering
+---
+
+### ⚙️ Feature Engineering
+
+Data preprocessing, feature engineering, feature encoding, and scaling.
+
+**View Image:**
+https://github.com/Farhaan-web11/House-Price-Predictor/blob/main/docs/feature_engineering.png
 
 ![Feature Engineering](docs/feature_engineering.png)
 
 ---
 
-# Author
+### 🏠 House Price Prediction
 
-Farhaan Shareef
-## Features Completed
+Prediction interface built using Streamlit.
 
-- Dataset exploration
-- Data cleaning
-- Feature engineering
-- Train/Test split
-- Linear Regression model
-- Model evaluation
-- House price prediction
-- Error handling
-- Testing
-- GitHub version control
+**View Image:**
+https://github.com/Farhaan-web11/House-Price-Predictor/blob/main/images/prediction.png
 
-## Current Project Status
+![Prediction](images/prediction.png)
 
-✅ Week 1 Completed
+---
 
-✅ Week 2 (Days 8–13) Completed
+### 📈 Model Evaluation
 
-The project can train a machine learning model, evaluate its performance, and predict house prices using processed data.
-## Advanced Features
+Actual vs Predicted House Prices graph generated during evaluation.
 
-- Compared multiple Machine Learning algorithms
-- Evaluated each model using R² Score
-- Selected the best-performing model automatically
-## Performance Improvements
+**View Image:**
+https://github.com/Farhaan-web11/House-Price-Predictor/blob/main/images/evaluation_graph.png
 
-- Saved trained model using Joblib for faster predictions.
-- Reused processed datasets instead of repeating preprocessing.
-- Optimized Random Forest parameters during development.
-- Reduced unnecessary file loading.
-- Added caching for the Streamlit app (if applicable).
-## 🚀 Quick Start
+![Model Evaluation](images/evaluation_graph.png)
 
-### 1. Clone the repository
+---
+
+## ✨ Features
+
+* Data exploration and analysis
+* Data cleaning and preprocessing
+* Feature engineering
+* Train/Test data split
+* Linear Regression model training
+* Multiple model comparison
+* House price prediction
+* Model evaluation using MAE, MSE, RMSE, and R² Score
+* Input validation and error handling
+* Testing and debugging
+* Streamlit web interface
+* GitHub version control
+
+---
+
+## 🛠️ Tech Stack
+
+### Programming Language
+
+* Python
+
+### Libraries
+
+* Pandas
+* NumPy
+* Scikit-learn
+* Matplotlib
+* Joblib
+* Streamlit
+
+### Tools
+
+* Visual Studio Code
+* Git
+* GitHub
+* Streamlit Community Cloud
+
+---
+
+## 📂 Project Structure
+
+```text
+House-Price-Predictor/
+│
+├── data/
+├── docs/
+├── images/
+├── models/
+├── results/
+├── src/
+├── tests/
+├── app.py
+├── requirements.txt
+└── README.md
+```
+
+---
+
+## ⚙️ Setup Instructions
+
+### Clone the Repository
 
 ```bash
 git clone https://github.com/Farhaan-web11/House-Price-Predictor.git
 ```
 
-### 2. Install dependencies
+### Move into the Project Folder
 
 ```bash
-pip install pandas numpy matplotlib scikit-learn joblib streamlit
+cd House-Price-Predictor
 ```
 
-### 3. Run the application
+### Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### Run the Application
 
 If using Streamlit:
 
@@ -135,74 +161,49 @@ If using Streamlit:
 streamlit run app.py
 ```
 
-Or run the Python scripts:
+If the `streamlit` command is not recognized:
 
 ```bash
+python -m streamlit run app.py
+```
+
+Or run the Python scripts individually:
+
+```bash
+python src/explore_data.py
+python src/feature_engineering.py
 python src/train_model.py
 python src/evaluate_model.py
 python src/predict_house.py
 ```
-# House Price Predictor
 
-## Features
+---
 
-- Data exploration
-- Data cleaning
-- Feature engineering
-- Train/Test split
-- Linear Regression model
-- Model evaluation
-- Multiple model comparison
-- House price prediction
-- Input validation
-- Error handling
-- Testing
-- Performance optimization
-- Git version control
+## 📊 Model Evaluation
 
-## Technologies Used
+The project evaluates the machine learning model using:
 
-- Python
-- Pandas
-- NumPy
-- Scikit-learn
-- Matplotlib
-- Joblib
-- Streamlit (if implemented)
-- Git & GitHub
+* Mean Absolute Error (MAE)
+* Mean Squared Error (MSE)
+* Root Mean Squared Error (RMSE)
+* R² Score
 
-## Project Structure
+---
 
-data/
-docs/
-models/
-results/
-src/
-tests/
-README.md
+## 🚀 Future Improvements
 
-## Screenshots
+* Improve prediction accuracy using additional machine learning algorithms.
+* Add more advanced feature engineering.
+* Improve the Streamlit user interface.
+* Deploy future versions with additional visualizations.
+* Support user-uploaded datasets for prediction.
 
-## Screenshots
+---
 
-### Prediction Output
+## 👨‍💻 Author
 
-![Prediction](images/prediction.png)
+**Farhaan Shareef**
 
-### Model Evaluation
+AI & Machine Learning Internship – CodeZoner
 
-![Evaluation](images/evaluation_graph.png)
-
-### GitHub Repository
-
-![GitHub](images/github_repo.png)
-
-## Future Improvements
-
-- Improve prediction accuracy
-- Try additional ML algorithms
-- Deploy the project online
-- Add more visualizations
-## Live Demo
-
-https://house-price-predictor-qdcutwz5ashcd2qgsu2dxi.streamlit.app/
+GitHub: https://github.com/Farhaan-web11
